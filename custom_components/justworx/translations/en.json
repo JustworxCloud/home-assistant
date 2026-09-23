@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "pick_implementation": {
+        "title": "Connect your Justworx account"
+      }
+    },
+    "abort": {
+      "already_configured": "This Justworx account is already set up.",
+      "missing_configuration": "The Justworx integration is not set up correctly. Please restart Home Assistant and try again.",
+      "authorize_url_timeout": "Timed out generating the Justworx authorize URL.",
+      "no_url_available": "No authorize URL is available. See the documentation for help.",
+      "oauth_error": "Received invalid token data from Justworx.",
+      "oauth_failed": "Error while obtaining the access token from Justworx.",
+      "oauth_timeout": "Timed out obtaining the access token from Justworx.",
+      "oauth_unauthorized": "Justworx rejected the authorization request.",
+      "user_rejected_authorize": "Account linking was cancelled: {error}"
+    },
+    "create_entry": {
+      "default": "Connected to Justworx. Your devices will appear shortly."
+    }
+  }
+}

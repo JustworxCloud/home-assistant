@@ -1,0 +1,13 @@
+{
+  "domain": "justworx",
+  "name": "Justworx",
+  "codeowners": ["@wkyle101"],
+  "config_flow": true,
+  "dependencies": ["application_credentials"],
+  "documentation": "https://github.com/wkyle101/jwx-homeassistant",
+  "integration_type": "hub",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/wkyle101/jwx-homeassistant/issues",
+  "requirements": [],
+  "version": "0.3.0"
+}
